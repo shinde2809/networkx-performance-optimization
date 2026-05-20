@@ -11,7 +11,7 @@ networkx/networkx
 
 Betweenness centrality computation in NetworkX is slow for large graphs due to its pure Python implementation of Brandes' algorithm.
 
-We identified this as a hot path by observing long execution times for graphs with ~2000 nodes.
+Identified this as a hot path by observing long execution times for graphs with ~2000 nodes.
 
 ---
 
