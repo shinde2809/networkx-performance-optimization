@@ -30,10 +30,10 @@ This reduces Python overhead and leverages compiled execution.
 
 | Version     | Median Time |
 |------------|------------|
-| Baseline   | X sec      |
-| Candidate  | Y sec      |
+| Baseline   | 28.418717861175537 sec      |
+| Candidate  | 0.8331713676452637 sec      |
 
-**Speedup: ~Zx**
+**Speedup: ~34x**
 
 ---
 
