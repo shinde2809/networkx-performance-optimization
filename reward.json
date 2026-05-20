@@ -1,0 +1,30 @@
+{
+  "repo": "networkx/networkx",
+  "baseline_sha": "YOUR_SHA",
+  "candidate_description": "Optimized Brandes using CSR + Numba",
+  "baseline_time_s": {
+    "median": 28.240036010742188,
+    "iqr": 1.7139344215393066,
+    "n_warmup": 2,
+    "n_measured": 5
+  },
+  "candidate_time_s": {
+    "median": 0.8464393615722656,
+    "iqr": 0.009492874145507812,
+    "n_warmup": 2,
+    "n_measured": 5
+  },
+  "speedup": 33.36333031380555,
+  "correctness": {
+    "existing_tests_pass": true,
+    "output_equivalent": true,
+    "tolerance": "1e-6 relative",
+    "tolerance_justification": "Floating point differences due to reordering"
+  },
+  "environment": {
+    "cpu_model": "Colab CPU",
+    "ram_gb": 12,
+    "python_version": "3.12.13",
+    "colab_runtime": "CPU"
+  }
+}
