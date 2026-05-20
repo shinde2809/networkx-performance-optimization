@@ -4,8 +4,7 @@
 networkx/networkx
 
 ## Baseline Commit
-(put your SHA here)
-
+9256ef6
 ---
 
 ## 🔍 Problem
